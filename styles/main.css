@@ -352,7 +352,7 @@ body {
 }
 
 .hero {
-  background-image: url(../../images/bgnd-grey.png), url(../../images/bgndImage.png);
+  background-image: url(../images/bgnd-grey.png), url(../../images/bgndImage.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0px;
