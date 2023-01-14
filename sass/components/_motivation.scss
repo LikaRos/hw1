@@ -1,0 +1,47 @@
+.motivation {
+  background-color: $accentBgndColor;
+}
+.motivation__wrapper {
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+  align-items: center;
+
+  padding-bottom: 177px;
+  padding-top: 229px;
+}
+.motivation__item:not(:last-child) {
+  margin-right: 31px;
+}
+
+.motivation__title {
+  color: $accentWhiteColor;
+  font-weight: 700;
+  font-family: $accentFont;
+  font-size: 50px;
+  line-height: 1.57;
+  margin-bottom: 33px;
+}
+
+.motivation__text {
+  font-weight: 600;
+  line-height: 1.57;
+  font-size: 25px;
+  color: $accentWhiteColor;
+  margin-bottom: 57px;
+}
+.motivation__btn {
+  color: $accentWhiteColor;
+  background-color: $accentGreenColor;
+  padding: 20px 50px;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    color: $accentGreenColor;
+    background-color: $accentWhiteColor;
+  }
+}
+.motivation__image {
+  border-radius: 20px;
+}
