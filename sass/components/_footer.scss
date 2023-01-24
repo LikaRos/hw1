@@ -49,13 +49,16 @@
   height: 76px;
   border-radius: 50%;
   background: $accentWhiteColor;
+
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  &:hover .svg__socials {
+  &:hover .svg__socials,
+  &:active .svg__socials {
     fill: $accentWhiteColor;
   }
 
-  &:hover {
-    background: radial-gradient(
+  &:hover,
+  &:active {
+    background: conic-gradient(
         at 63% 40px,
         #b8d2f1 0%,
         #f289aa 16.67%,
